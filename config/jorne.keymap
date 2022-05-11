@@ -24,9 +24,9 @@
 //        | LALT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | RALT |
 //                           | RSE | SPC | LWR |   | LWR | BKSP | RSE |
                         bindings = <
-   &kp TAB &kp GRAVE &kp Q &kp W &kp E &kp R &kp T &kp Y         &kp U  &kp I     &kp O   &kp P    &kp LBKT &mt RWIN RBKT
-            &kp LCTRL &kp A &kp S &kp D &kp F &kp G &kp H         &kp J  &kp K     &kp L   &kp SEMI &mt RCTRL SQT
-            &kp LALT  &kp Z &kp X &kp C &kp V &kp B &kp N         &kp M  &kp COMMA &kp DOT &kp FSLH &kp BSLH
+   &lt TAB &kp GRAVE &kp Q &kp W &kp E &mt EQUAL R &mt LBKT T &mt RBKT Y     &kp U  &kp I     &kp O   &kp P    &kp LBKT &mt RWIN RBKT
+            &kp LCTRL &kp A &kp S &kp D &kp F &mt LPAR G &mt RPAR  H         &kp J  &kp K     &kp L   &kp SEMI &mt RCTRL SQT
+            &kp LALT  &kp Z &kp X &kp C &kp V &mt LS(LBKT) B &mt LS(RBKT) N         &kp M  &kp COMMA &kp DOT &kp FSLH &kp BSLH
                          &lt RSE INS &mt LWIN UNDER  &lt LWR RET &lt LWR SPACE  &mt LSHFT BSPC &lt RSE ESC
                         >;
                 };
