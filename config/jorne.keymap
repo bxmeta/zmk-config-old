@@ -22,12 +22,12 @@
 // |  RSE/TAB |   BSPC |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  |  [   | GUI/] |
 //        | LSHFT |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |CTRL/'|
 //        | LCTRL |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | RALT |
-//                 | GUI/INS | LALT/ESC | LWR/SPACE |   | LWR/RET| RSE | RSHIFT |
+//                 | GUI/INS | LALT/ESC | LWR/SPACE |   | LWR/RET| RSE/ESC | RSHIFT |
                         bindings = <
    &lt RSE TAB &kp BSPC &kp Q &kp W &kp E &kp R &kp T &kp Y           &kp U  &kp I &kp O &kp P &kp LBKT &mt RWIN RBKT
             &kp LSHFT &kp A &kp S &kp D &kp F &kp G &kp H        &kp J  &kp K &kp L &kp SEMI &mt RCTRL SQT
             &kp LCTRL  &kp Z &kp X &kp C &kp V &kp B &kp N           &kp M  &kp COMMA &kp DOT &kp FSLH &kp BSLH
-                         &mt LWIN INS &mt LALT ESC &lt LWR SPACE   &lt LWR RET &mo RSE &kp RSHIFT   
+                         &mt LWIN INS &mt LALT ESC &lt LWR SPACE   &lt LWR RET &lt RSE ESC &kp RSHIFT   
                         >;
                 };
                 lower_layer {
